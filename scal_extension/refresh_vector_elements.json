@@ -1,0 +1,30 @@
+{
+  "tasktype": "refresh_vector",
+  "necessary_arguments": ["filename", "pages", "annotated rectangle"],
+  "operations": [
+    {
+      "action": "refresh vector format",
+      "necessary_arguments": ["vector type requiring revise"],
+      "optional_arguments": [
+                "mode to select target type of vector for revising",
+                "fill color",
+                "drawing color",
+                "dashes line scal",
+                "closePath",
+                "lineJoin",
+                "lineCap",
+                "stroke width"
+            ],
+      "vaguly_defined_arguments": [
+                "fill color",
+                "drawing color",
+                "dashes",
+                "closePath",
+                "lineJoin",
+                "lineCap",
+                "stroke width"
+      ],
+      "recallable": "True"
+    }
+  ]
+}

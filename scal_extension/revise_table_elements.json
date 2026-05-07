@@ -1,0 +1,48 @@
+{
+  "tasktype": "revise_table",
+  "necessary_arguments": ["filename", "pages", "annotated rectangle"],
+  "optional_arguments": [
+                "font",
+                "font size",
+                "border width",
+                "align"
+  ],
+  "vaguly_defined_arguments": [
+                "font",
+                "font size",
+                "border width",
+                "align"
+  ],
+  "operations": [
+    {
+      "action": "clean table",
+      "necessary_arguments": [],
+      "optional_arguments": [
+                "cells start from [row number, column number]",
+                "cells end at [row number, column number]"
+            ],
+      "vaguly_defined_arguments": [],
+      "recallable": "True"
+    },
+    {
+      "action": "replace table",
+      "necessary_arguments": ["new data"],
+      "optional_arguments": [
+                "cells start from [row number, column number]",
+                "cells end at [row number, column number]"
+            ],
+      "vaguly_defined_arguments": [],
+      "recallable": "True"
+    },
+    {
+      "action": "prun table",
+      "necessary_arguments": [],
+      "optional_arguments": [
+                "rows to delete",
+                "columns to delete"
+            ],
+      "vaguly_defined_arguments": [],
+      "recallable": "True"
+    }
+  ]
+}

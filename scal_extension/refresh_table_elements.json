@@ -1,0 +1,25 @@
+{
+  "tasktype": "refresh_table",
+  "necessary_arguments": ["filename", "pages", "annotated rectangle"],
+  "optional_arguments": [],
+  "operations": [
+    {
+      "action": "refresh table format",
+      "necessary_arguments": [],
+      "optional_arguments": [
+                "arrange",
+                "font",
+                "font size",
+                "border width",
+                "align"
+            ],
+      "vaguly_defined_arguments": [
+                "font",
+                "font size",
+                "border width",
+                "align"
+      ],
+      "recallable": "False"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "tasktype": "refresh_text",
+  "necessary_arguments": ["filename", "pages", "annotated rectangle"],
+  "operations": [
+    {
+      "action": "refresh text format",
+      "necessary_arguments": [],
+      "optional_arguments": [
+                "text requiring updating",
+                "font",
+                "font size",
+                "text color",
+                "align"
+            ],
+      "vaguly_defined_arguments": [
+                "font",
+                "font size",
+                "text color",
+                "align"
+      ],
+      "recallable": "False"
+    }
+  ]
+}

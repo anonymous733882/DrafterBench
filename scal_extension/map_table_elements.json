@@ -1,0 +1,21 @@
+{
+  "tasktype": "map_table",
+  "necessary_arguments": ["filename", "pages", "annotated rectangle"],
+  "operations": [
+    {
+      "action": "map table",
+      "necessary_arguments": [],
+      "optional_arguments": [
+                "translation [(x direction, x distance), (y direction, y distance)]",
+                "rotation [direction, angle]",
+                "scaling [x scaling factor, y scaling factor]"
+            ],
+      "vaguly_defined_arguments": [
+                "translation [(x direction, x distance), (y direction, y distance)]",
+                "rotation [direction, angle]",
+                "scaling [x scaling factor, y scaling factor]"
+      ],
+      "recallable": "False"
+    }
+  ]
+}

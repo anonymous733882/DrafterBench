@@ -1,0 +1,19 @@
+{
+  "tasktype": "add_vector",
+  "necessary_arguments": ["filename", "pages", "color of manually annotated vector"],
+  "operations": [
+    {
+      "action": "add vector",
+      "necessary_arguments": ["vector type requiring revise"],
+      "optional_arguments": [
+                "drawing color",
+                "stroke width"
+            ],
+      "vaguly_defined_arguments": [
+                "drawing color",
+                "stroke width"
+            ],
+      "recallable": "False"
+    }
+  ]
+}

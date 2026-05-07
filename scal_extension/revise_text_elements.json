@@ -1,0 +1,37 @@
+{
+  "tasktype": "revise_text",
+  "necessary_arguments": ["filename", "pages", "annotated rectangle"],
+  "optional_arguments": [
+                "text requiring updating",
+                "font",
+                "font size",
+                "text color",
+                "align"
+  ],
+  "vaguly_defined_arguments": [
+                "font",
+                "font size",
+                "text color",
+                "align"
+  ],
+  "operations": [
+    {
+      "action": "delete text",
+      "necessary_arguments": [],
+      "optional_arguments": [
+                "text to be deleted"
+            ],
+      "vaguly_defined_arguments": [],
+      "recallable": "True"
+    },
+    {
+      "action": "replace text",
+      "necessary_arguments": ["new text string"],
+      "optional_arguments": [
+                "old text string"
+            ],
+      "vaguly_defined_arguments": [],
+      "recallable": "True"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "tasktype": "add_table",
+  "necessary_arguments": ["filename", "page", "annotated rectangle"],
+  "operations": [
+    {
+      "action": "add table",
+      "necessary_arguments": ["data"],
+      "optional_arguments": [
+                "arrange",
+                "font",
+                "font size"
+            ],
+      "vaguly_defined_arguments": [
+                "arrange",
+                "font",
+                "font size"
+            ],
+      "recallable": "True"
+    }
+  ]
+}

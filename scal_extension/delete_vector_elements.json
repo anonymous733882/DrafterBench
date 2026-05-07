@@ -1,0 +1,14 @@
+{
+  "tasktype": "delete_vector",
+  "necessary_arguments": ["filename", "pages", "annotated rectangle"],
+  "operations": [
+    {
+      "action": "delete vector",
+      "necessary_arguments": ["vector type requiring revise"],
+      "optional_arguments": [
+        "mode to select target type of vector for revising"],
+      "vaguly_defined_arguments": [],
+      "recallable": "True"
+    }
+  ]
+}

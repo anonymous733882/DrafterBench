@@ -1,0 +1,25 @@
+{
+  "tasktype": "add_text",
+  "necessary_arguments": ["filename", "pages", "annotated rectangle"],
+  "operations": [
+    {
+      "action": "add_text",
+      "necessary_arguments": ["text"],
+      "optional_arguments": [
+                "font",
+                "font size",
+                "text color",
+                "text rotate [direction, angle]",
+                "align"
+            ],
+      "vaguly_defined_arguments": [
+                "font",
+                "font size",
+                "text color",
+                "text rotate [direction, angle]",
+                "align"
+            ],
+      "recallable": "True"
+    }
+  ]
+}
